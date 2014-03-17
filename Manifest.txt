@@ -1,0 +1,8 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/gate
+lib/gate.rb
+test/test_gate.rb
