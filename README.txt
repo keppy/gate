@@ -1,14 +1,8 @@
-= gate
-
-home  :: FIX (url)
-code  :: FIX (url)
-rdoc  :: FIX (url)
-bugs  :: FIX (url)
-... etc ...
+=gate
 
 == DESCRIPTION:
 
-FIX (describe your package)
+gem for rails 4 API securing through spooky tokenses.
 
 == FEATURES/PROBLEMS:
 
@@ -25,6 +19,17 @@ FIX (describe your package)
 == INSTALL:
 
 * FIX (sudo gem install, anything else)
+=======
+
+== REQUIREMENTS:
+rails 4
+
+== INSTALL:
+
+In Gemfile
+```
+gem 'gate'
+```
 
 == DEVELOPERS:
 
