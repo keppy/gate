@@ -1,6 +1,8 @@
-=gate
+gate
+---
 
-== DESCRIPTION:
+DESCRIPTION:
+---
 
 Conventional solution for protecting APIs you expose to the spooky web.
 
@@ -9,24 +11,22 @@ After that only doors (less durable) can be used to protect.
 
 If you aren't using API keys right now... all the more reason to use gate.
 
-== FEATURES/PROBLEMS:
+FEATURES/PROBLEMS:
+---
 
--Uses more than one cypher
--Best API token storage practices
--Generator creates all needed files & walks you through secure steps
--Generates a mater API secret, agnostic about storage and retrieval of secret
-THIS IS A WISH LIST
+- Uses more than one cypher
+- Best API token storage practices
+- Generator creates all needed files & walks you through secure steps
+- Generates a mater API secret, agnostic about storage and retrieval of secret
+- THIS IS A WISH LIST
 
-== SYNOPSIS:
+REQUIREMENTS:
+---
 
-  FIX (code sample of usage)
-=======
+- tested on ruby 2
 
-== REQUIREMENTS:
-tested on ruby 2
-
-== INSTALL:
-
+INSTALL/USAGE:
+---
 Using Gemfile
 ```
 gem 'gate'
@@ -42,7 +42,8 @@ You will be taken through some questions.
 gate does not care how you save or reference your master API secret. We do make you use
 our secret created by our generator; you are responsible for it from there. I would check out settings logic for storing sensitive, envioronment specific settings.
 
-== DEVELOPERS:
+DEVELOPERS:
+---
 
 After checking out the source, run:
 
@@ -52,7 +53,8 @@ After checking out the source, run:
 This task will install any missing dependencies, run the tests/specs,
 and generate the RDoc.
 
-== LICENSE:
+LICENSE:
+---
 
 (The MIT License)
 
