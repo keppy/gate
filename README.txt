@@ -4,11 +4,17 @@
 
 Conventional solution for protecting APIs you expose to the spooky web.
 
+gate is a fitting word because your API keys are like gate keys to your entire web app.
+After that only doors (less durable) can be used to protect.
+
+If you aren't using API keys right now... all the more reason to use gate.
+
 == FEATURES/PROBLEMS:
 
 -Uses more than one cypher
 -Best API token storage practices
 -Generator creates all needed files & walks you through secure steps
+-Generates a mater API secret, agnostic about storage and retrieval of secret
 THIS IS A WISH LIST
 
 == SYNOPSIS:
@@ -17,18 +23,29 @@ THIS IS A WISH LIST
 =======
 
 == REQUIREMENTS:
-rails 4
+tested on ruby 2
 
 == INSTALL:
 
-In Gemfile
+Using Gemfile
 ```
 gem 'gate'
 ```
 
+To install gate, you will need to generate your initializer. If ./config/initializers
+exists it will be placed there, otherwise it will be in ./
+```
+gate generate
+```
+You will be taken through some questions.
+
+gate does not care how you save or reference your master API secret. We do make you use
+our secret created by our generator; you are responsible for it from there. I would check out settings logic for storing sensitive, envioronment specific settings.
+
 == DEVELOPERS:
 
 After checking out the source, run:
+
 
   $ rake newb
 
