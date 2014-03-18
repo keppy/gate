@@ -2,23 +2,18 @@
 
 == DESCRIPTION:
 
-gem for rails 4 API securing through spooky tokenses.
+Conventional solution for protecting APIs you expose to the spooky web.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+-Uses more than one cypher
+-Best API token storage practices
+-Generator creates all needed files & walks you through secure steps
+THIS IS A WISH LIST
 
 == SYNOPSIS:
 
   FIX (code sample of usage)
-
-== REQUIREMENTS:
-
-* FIX (list of requirements)
-
-== INSTALL:
-
-* FIX (sudo gem install, anything else)
 =======
 
 == REQUIREMENTS:

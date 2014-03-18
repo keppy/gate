@@ -10,13 +10,9 @@ require "hoe"
 # Hoe.plugin :rcov
 
 Hoe.spec "gate" do
-  # HEY! If you fill these out in ~/.hoe_template/default/Rakefile.erb then
-  # you'll never have to touch them again!
-  # (delete this comment too, of course)
+  developer("keppy", "keppy.rb@gmail.com")
 
-  # developer("FIX", "FIX@example.com")
-
-  # license "MIT" # this should match the license in the README
+  license "MIT" 
 end
 
 # vim: syntax=ruby
